@@ -37,7 +37,7 @@ Non-linear mapping)
 - Channel maps: 12
 - Activation function: PReLU
 - Border mode: Same (Zero Padding)
-- # of Layers: 4
+- The number of Layers: 4
 
 Expanding)
 - Filter size: 1x1
