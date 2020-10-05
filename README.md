@@ -69,13 +69,9 @@ Deconvolution)
 - Patch size: 10 (Input), 20 (Label)
 
 ##### Training Strategy from FSRCNN Paper)
-- A two-step training strategy
-- First, we train a network from scratch with the 91-image dataset
-- Then, when the training is saturated, we add the General-100 dataset for fine tuning
+A two-step training strategy. First, we train a network from scratch with the 91-image dataset. Then, when the training is saturated, we add the General-100 dataset for fine tuning
 
-- As we have obtained a well-trained model under the upsacling factor 3, we then train the network for x2 on the basis of that for x3
-- During training, we only fine-tune the deconvolution layer on the 91-image and General-100 Dataset of x2
-- We only train the networks from scratch fro x3, and fine-tune the corresponding deconvolution layers for x2 and x4
+As we have obtained a well-trained model under the upsacling factor 3, we then train the network for x2 on the basis of that for x3. During training, we only fine-tune the deconvolution layer on the 91-image and General-100 Dataset of x2. We only train the networks from scratch fro x3, and fine-tune the corresponding deconvolution layers for x2 and x4
 
 
 ##### Test)
@@ -100,4 +96,4 @@ With SRCNN.ipynb files and weight files, you can test the network.
 - Excute for x3 SRCNN: `FSRCNN_scale3.ipynb`, `/weights/FSRCNN_checkpoint_scale3_General100.h5`
 - Excute for x4 SRCNN: `FSRCNN_scale4.ipynb`, `/weights/FSRCNN_checkpoint_scale4_General100.h5`
 
-- the files without '_General100' tags are the weight files trained with 91 images
+the files without '_General100' tags are the weight files trained with 91 images
