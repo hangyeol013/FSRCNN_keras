@@ -4,11 +4,11 @@ import numpy as np
 import h5py
 
 
-Train_path_91 = "/media/idea/ideaHome/Dropbox/HG/SR/Dataset/T91"
-Train_path_200 = "/media/idea/ideaHome/Dropbox/HG/SR/Dataset/BSD500/data/images/train"
-Train_path_DIV2K = "/media/idea/ideaHome/Dropbox/HG/SR/Dataset/DIV2K/DIV2K/DIV2K_train_HR"
-Cross_val_path_5 = "/media/idea/ideaHome/Dropbox/HG/SR/Dataset/Set5"
-Cross_val_path_200 = "/media/idea/ideaHome/Dropbox/HG/SR/Dataset/BSD500/data/images/val"
+Train_path_91 = "/Dataset/T91"
+Train_path_200 = "/Dataset/BSD500/data/images/train"
+Train_path_DIV2K = "/Dataset/DIV2K/DIV2K/DIV2K_train_HR"
+Cross_val_path_5 = "/Dataset/Set5"
+Cross_val_path_200 = "/Dataset/BSD500/data/images/val"
 
 
 Patch_size = 33
