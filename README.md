@@ -8,7 +8,8 @@ A implementation of the original paper ['Accelerating the Super-Resolution Convo
 <center><img width = "800" src="https://user-images.githubusercontent.com/58276840/95052310-aba98800-0729-11eb-9c45-a520eb98b3ed.png"></center>
 
 
-tensorflow 1.14.0 based implementation, using Jupyter Notebook.
+
+tensorflow-gpu 2.0.0, keras 2.3.1 based implementation on Python 2.7.17, using Jupyter Notebook.
 
 
 
