@@ -92,7 +92,7 @@ You can generate dataset (training sample, test sample) through matlab files in 
 
 I also uploaded the trained weight files.
 
-With SRCNN.ipynb files and weight files, you can test the network.
+With FSRCNN.ipynb files and weight files, you can test the network.
 - Excute for x2 SRCNN: `FSRCNN_scale2.ipynb`, `/weights/FSRCNN_checkpoint_scale2_General100.h5`
 - Excute for x3 SRCNN: `FSRCNN_scale3.ipynb`, `/weights/FSRCNN_checkpoint_scale3_General100.h5`
 - Excute for x4 SRCNN: `FSRCNN_scale4.ipynb`, `/weights/FSRCNN_checkpoint_scale4_General100.h5`
