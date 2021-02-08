@@ -11,6 +11,7 @@ A implementation of the original paper ['Accelerating the Super-Resolution Convo
 
 tensorflow-gpu 2.0.0, keras 2.3.1 based implementation on Python 3.6.9, using Jupyter Notebook.
 
+(I converted the .ipynb file to .py file)
 
 
 
@@ -93,8 +94,8 @@ You can generate dataset (training sample, test sample) through matlab files in 
 I also uploaded the trained weight files.
 
 With FSRCNN.ipynb files and weight files, you can test the network.
-- Excute for x2 SRCNN: `FSRCNN_scale2.ipynb`, `/weights/FSRCNN_checkpoint_scale2_General100.h5`
-- Excute for x3 SRCNN: `FSRCNN_scale3.ipynb`, `/weights/FSRCNN_checkpoint_scale3_General100.h5`
-- Excute for x4 SRCNN: `FSRCNN_scale4.ipynb`, `/weights/FSRCNN_checkpoint_scale4_General100.h5`
+- Excute for x2 SRCNN: `FSRCNN_scale2.py`, `/weights/FSRCNN_checkpoint_scale2_General100.h5`
+- Excute for x3 SRCNN: `FSRCNN_scale3.py`, `/weights/FSRCNN_checkpoint_scale3_General100.h5`
+- Excute for x4 SRCNN: `FSRCNN_scale4.py`, `/weights/FSRCNN_checkpoint_scale4_General100.h5`
 
 the files without '_General100' tags are the weight files trained with 91 images
